@@ -1,0 +1,60 @@
+.wrap {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.square {
+    display: flex;
+    border: 1px solid #000;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.value {
+    width: 40%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    cursor: default;
+    background: transparent;
+    color: #000;
+}
+
+.plus, .minus {
+    border: 1px solid #000;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.plus {
+    margin-right: 10px;
+}
+.minus {
+    margin-left: 10px;
+}
+
+
+
+.box-wrap {
+    display: flex;
+}
+
+.box {
+    border: 1px solid #000;
+    padding: 50px;
+    margin-right: 20px;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}

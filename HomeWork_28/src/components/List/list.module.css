@@ -1,0 +1,51 @@
+.list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(4, 270px);
+  grid-auto-columns: repeat(5, 1fr);
+}
+
+.item {
+  list-style: none;
+  position: relative;
+}
+
+.title {
+  width: 240px;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  position: relative;
+}
+
+.title span {
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: -17px;
+  left: 20px;
+}
+
+.text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 40px auto 0;
+  text-overflow: ellipsis;
+  width: 230px;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.tag {
+  font-weight: 700;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}

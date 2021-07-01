@@ -1,0 +1,8 @@
+.grid_container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr, 20px, 1fr;
+  grid-template-columns: 1140px;
+  grid-auto-columns: 1140px;
+  row-gap: 50px;
+}
